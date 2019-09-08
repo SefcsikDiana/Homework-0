@@ -1,0 +1,96 @@
+/* TARGETING ELEMENTS / TAGS */
+
+body{
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right:10%;
+    font-family: Consolas;
+    background-image: url("assets/background.png");
+    line-height: 20px;
+
+}
+h1{
+    font-size: 60px;
+}
+
+h2, h4{
+    font-size: 35px;
+
+}
+
+h3{
+    font-size: 45px;
+
+}
+
+#Header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+#Header ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+
+#Header ul li a {
+    display: block;
+    color: #ff0099;
+    padding: 27px;
+    float: right;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#Header ul li a:hover {
+    background-color: #111;
+    text-decoration: none;
+  }
+
+#Header #logo{
+    float: left;
+}
+
+#Header #logo img{
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+p{
+    text-align: left;
+    font-size: 20px;
+}
+
+#subtitle{
+    color: #ff0099;
+
+}
+
+#divider{
+
+    text-align: center;
+    padding: 3%;
+    font-weight: bold;
+
+}
+
+#centeredTitle{
+     text-align: center;
+
+}
+
+#wiki{
+    font-family: consolas;
+
+}
+
